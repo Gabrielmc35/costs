@@ -8,18 +8,18 @@ return(
         <ul className={styles.social_list}>
             <li className={styles.iconApp}>
             <Link to ="https://www.facebook.com/gabriel.magalhaes.180"> 
-            <FaFacebook/></Link>
+            <FaFacebook color="yellow"/></Link>
               
             </li>
             <li>
              
                 <Link to ="https://www.instagram.com/gabrielmc35/"> 
-            <FaInstagram/></Link>
+            <FaInstagram color="yellow"/></Link>
             </li>
             <li>
               
                 <Link to ="https://www.linkedin.com/in/gabrielmc35/"> 
-            <FaLinkedin/></Link>
+            <FaLinkedin color="yellow"/></Link>
             </li>
 
         </ul>
