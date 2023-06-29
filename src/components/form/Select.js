@@ -6,7 +6,10 @@ return(
     <div className={styles.input_control}>
         <label htmlFor={name}> {text} </label>
           <select name={name} id={name}>
-            <option disabled selected>Selecione uma opcao abaixo</option>        
+            <option disabled selected>Selecione uma opcao abaixo</option>
+            {options.map((option) => (
+              <option value={option.id}key={option.id}>{option.name}</option>
+            ))}  
          </select>
        
     </div>
