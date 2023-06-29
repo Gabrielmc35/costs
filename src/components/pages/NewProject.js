@@ -7,7 +7,7 @@ function NewProject() {
           
             <p>Crie o projeto para adicionar o serviço prestado</p>
           
-            <ProjectForm />
+            <ProjectForm  btnText="Criar Projeto"/>
             
         </div>
     )
