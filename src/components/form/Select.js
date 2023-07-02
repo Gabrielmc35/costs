@@ -1,6 +1,6 @@
 import styles from './Select.module.css'
 function Select({name,options,handleOnChange,value,text}) {
-
+//LEMBRAR SEMPRE - handleOnChange 
 return(
 
     <div className={styles.input_control}>
