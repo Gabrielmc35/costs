@@ -6,6 +6,17 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "category": {
+        "id": "5",
+        "name": "Reformas"
+      },
+      "name": "teste",
+      "budget": "123",
+      "cost": 0,
+      "services": [],
+      "id": 2
     }
   ],
   "categories": [

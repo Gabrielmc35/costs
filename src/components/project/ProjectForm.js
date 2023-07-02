@@ -28,13 +28,16 @@ function ProjectForm ({btnText,handleSubmit, projectData}) {
   }
 
   function handleCategory(e) {
+    console.log('category')
     setProject({
       ...project,
       category: {
         id: e.target.value,
         name: e.target.options[e.target.selectedIndex].text,
       },
+      
     })
+    console.log('category 2')
   }
   function handleChange(e) 
   {
