@@ -1,29 +1,33 @@
 {
-  "projects" : [],
-
-  "categories" :  [
+  "projects": [
     {
-        "id": 1,
-        "name": "infra"
+      "name": "teste",
+      "budget": "321",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "infra"
     },
     {
-        "id": 2,
-        "name": "Desenvolvimento"
-    }, {
-        "id": 3,
-        "name": "Design"
-    }, {
-        "id": 4,
-        "name": "Planejamento"
-    }, {
-        "id": 5,
-        "name": "Reformas"
+      "id": 2,
+      "name": "Desenvolvimento"
     },
     {
-      "id": 6,
-      "name": "Teste"
-  }
-]
-
-  
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    },
+    {
+      "id": 5,
+      "name": "Reformas"
+    }
+  ]
 }

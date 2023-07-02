@@ -1,5 +1,5 @@
 import styles from './Input.module.css'
-function Input({type, name, placeholder,handleonChange,value,text}) {
+function Input({type, name, placeholder,handleOnChange,value,text}) {
 
 return(
 
@@ -9,8 +9,9 @@ return(
          name={name}
          placeholder={placeholder}
          id={name} value={value} 
-         onChange={handleonChange} />
-       
+         onChange={handleOnChange} 
+         value={value}
+         />       
     </div>
 )
 }
